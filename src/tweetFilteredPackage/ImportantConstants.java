@@ -4,7 +4,7 @@
 package tweetFilteredPackage;
 
 /**
- * @author Vilian Work
+ * @author Vilian Popov
  *
  */
 public final class ImportantConstants {
