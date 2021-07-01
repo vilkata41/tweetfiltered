@@ -1,0 +1,16 @@
+/**
+* Keep in mind that this file is just a template - the real file was not included for privacy reasons.
+* You need to keep your API keys and secrets only for yourself.
+* to use this file properly, you need to remove the .sample at the end of it and then change all Strings below.
+*/
+
+package tweetFilteredPackage;
+
+public final class ImportantConstants {
+
+	public final static String CONSUMER_KEY = "Your consumer key";        // Check this in the twitter API
+	public final static String CONSUMER_SECRET = "Your consumer secret";  // Check this in the twitter API
+	public final static String ACCESS_TOKEN = "Your access token";        // Check this in the twitter API
+	public final static String TOKEN_SECRET = "Your access token secret"; // Check this in the twitter API
+	
+}
