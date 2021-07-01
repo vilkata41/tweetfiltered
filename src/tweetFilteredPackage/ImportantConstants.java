@@ -7,8 +7,8 @@ package tweetFilteredPackage;
 public final class ImportantConstants {
 
 	public final static String CONSUMER_KEY = "Your consumer key";
-	public final static String CONSUMER_SECRET = "KnuO5XLxYW6qG69S5LrFBqhSh6u2gOKwt89Oxou9Pl3VatqGfJ";
-	public final static String ACCESS_TOKEN = "1405868417094148102-vBqWZuQKMjeIyOtkfGdXcfaT2584iS";
-	public final static String TOKEN_SECRET = "tdIUCgRzK4niznrYoeUVhKcYgqZkztivW5U0DnjQPXa9P";
+	public final static String CONSUMER_SECRET = "Your consumer secret";
+	public final static String ACCESS_TOKEN = "Your access token";
+	public final static String TOKEN_SECRET = "Your access token secret";
 	
 }
