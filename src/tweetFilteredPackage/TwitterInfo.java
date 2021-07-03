@@ -22,7 +22,8 @@ public class TwitterInfo {
 			
 			for (Status s: mentionedStatuses) {
 				System.out.println(""); 												//Just adding a new line, so the tweets don't blend
-				System.out.println(s.getUser().getName() + " tweeted: " + s.getText());
+				
+				System.out.println(s.getUser().getName() + " tweeted: " + s.getText().toString().replaceAll("https://t.co/[a-zA-Z_0-9]*","")); //Removing the link at the end of posts with media
 				
 				if(s.getMediaEntities().length > 0) {
 					System.out.println("Included media: ");
