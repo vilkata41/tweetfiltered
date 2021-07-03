@@ -29,7 +29,7 @@ public class TwitterInfo {
 					System.out.println("Included media: ");
 					
 					for(int i = 0; i < s.getMediaEntities().length; i++) {
-						if(s.getMediaEntities()[i].getType() == "video") s.getMediaEntities()[i].getMediaURL();
+						if(s.getMediaEntities()[i].getType().equals("video")) System.out.println(s.getMediaEntities()[i].getVideoVariants()[0].getUrl());
 						else System.out.println(s.getMediaEntities()[i].getMediaURL());
 					}
 				}
@@ -39,7 +39,7 @@ public class TwitterInfo {
 		}
 		catch(TwitterException ex) { //We catch the exception and handle it
 			ex.printStackTrace();
-			System.out.println("Failed to get timeline.");
+			System.out.println("Failed to get tweets.");
 			System.exit(-1);
 		}
 	}
