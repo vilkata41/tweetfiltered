@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="twitter4j-core-4.0.7">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../Downloaded/twitter4j/lib/twitter4j-core-4.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Downloaded/twitter4j/lib/twitter4j-core-4.0.7.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
